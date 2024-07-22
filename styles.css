@@ -1,0 +1,195 @@
+/* We can use #xyz.xyz{} or .xyz#xyz{} or .xyz h1 etc{}to chane more perticularly and we can use also h1,h2,h3,h4,h5,h6{} for example and we acn also use div h1 {color:red} so div is parent and h1 is a child*/
+
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.containers-fluid {
+    padding: 3% 15% 10%; 
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+/* Download Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+    width: 60%;
+    right: 30%;
+    transform: rotate(20deg);
+     position: absolute;
+     right: 100px; 
+} 
+
+/* Features Secton */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;              
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonial {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colomn {
+    padding: 3% 2%;
+}
+
+/* Cta */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15% ;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 40px 16px;
+    text-align: center;
+    color: black;
+}
+/* .sos {
+    color: #ff4c68;
+} */
+
+/* media Query */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.form-outline {
+    margin-right: 1%;
+}
+
+.form-control{
+    font-weight: 50;
+}
+
+@media (max-width :1028px){
+    .form-outline {
+            text-align: center;
+            width:30%
+            /* margin-right: ; */
+        }
+}
+

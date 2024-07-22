@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-Up</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- bootstrap     -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style1.css">
+        
+        <link rel="shortcut icon" href="favicon.ico">
+    <!-- java-script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"crossorigin="anonymous"></script>
+    </head>
+
+    <body class="bk-color">
+        <div class="container">
+            <main>
+                <div class="py-5 text-center">
+                    <img class="pad1" src="/TinDog-Start-master/images/tindoglogo-img.png" alt="tindog" width="30%">
+                    <h2 class="pad1"><b>Sign-Up</b></h2>
+                    <p class="lead">Thank you for Signing with us.</p>
+                </div>
+                <form class="sign-style">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="aditya22@gmail.com" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="inputPassword4">Password (8 characters minimum):</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password" minlength="8" maxlength="16" autocomplete="current-password" autocomplete="current-password" autocomplete="current-password" autocomplete="current-password" required >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2 (Optional)</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Country</label>
+                            <!-- <input type="text" class="form-control" id="inputCity"> -->
+                            <select id="inputCity" class="form-control">
+                                <option selected>Choose...</option>
+                                <option class="uppercase">INDIA</option>
+                                <option class="uppercase">Afghanistan</option>
+                                <option class="uppercase">Albania</option>
+                                <option class="uppercase">Algeria</option>
+                                <option class="uppercase">Australia</option>
+                                <option class="uppercase">Argentina</option>
+                                <option class="uppercase">Austria</option>
+                                <option class="uppercase">Bahrain</option>
+                                <option class="uppercase">Belarus</option>
+                                <option class="uppercase">Bangladesh</option>
+                                <option class="uppercase">Canada</option>
+                                <option class="uppercase">China</option>
+                                <option class="uppercase">Denmark</option>
+                                <option class="uppercase">Egypt</option>
+                                <option class="uppercase">Finland</option>
+                                <option class="uppercase">France</option>
+                                <option class="uppercase">Greece</option>
+                                <option class="uppercase">Germany</option>
+                                <option class="uppercase">Japan</option>
+                                <option class="uppercase">usa</option>
+                                <option class="uppercase">United Kingdom</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option class="uppercase">uttar-pradesh</option>
+                                <option class="uppercase">delhi</option>
+                                <option class="uppercase">tamil-nadu</option>
+                                <option class="uppercase">west-bengal</option>
+                                <option class="uppercase">madhya-pradesh</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Enter the ZIP Number"  maxlength="6" pattern="[0-9]{6}" required >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </main>
+
+            <footer class="my-3 pt-3 text-muted text-center text-small">
+                <p class="mb-1">© 2022–2023 </p>
+                <p><b>tindog</b></p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

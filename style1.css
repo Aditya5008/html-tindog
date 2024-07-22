@@ -1,0 +1,18 @@
+.bk-color {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.pad1 {
+    margin-top: 2%;
+}
+
+.bk-color {
+    padding-top: 0rem;
+    background-color: #F7A4A4;
+}
+/* #F7A4A4 */

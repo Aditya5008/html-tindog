@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Checkout</title>
+
+    <!-- Custom styles for this template -->
+    <link href="checkout.css" rel="stylesheet">
+    <!--Used for fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!-- Css Style sheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/TinDog-Start-master/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e4c0c064cb.js" crossorigin="anonymous"></script>
+    <!-- Used for javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/TinDog-Start-master/favicon.ico">
+</head>
+    <body class="bg-light">
+
+        <div class="container">
+            <main>
+                <div class="py-5 text-center">
+                    <img src="/TinDog-Start-master/images/tindoglogo-img.png" alt="tindog" width="30%">
+                    <h2 class="pad1"><b>Checkout form</b></h2>
+                    <p class="lead">Thank you for Shoping with us. See You Again.</p>
+                </div>
+
+                <div class="row g-5">
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-primary">Your cart</span>
+                            <span class="badge bg-primary rounded-pill">3</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Product name</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">₹1200</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Second product</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">₹800</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Third item</h6>
+                                    <small class="text-muted">Brief description</small>
+                                </div>
+                                <span class="text-muted">₹500</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <div class="text-success">
+                                    <h6 class="my-0">Promo code</h6>
+                                    <small>EXAMPLECODE</small>
+                                </div>
+                                <span class="text-success">−₹250</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total (INR)</span>
+                                <strong>₹2250</strong>
+                            </li>
+                        </ul>
+
+                        <form class="card p-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Promo code" fdprocessedid="bne9ra">
+                                <button type="submit" class="btn btn-secondary" fdprocessedid="cig2q">Redeem</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="mb-3">Billing address</h4>
+                        <form class="needs-validation" novalidate="">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label">First name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="First name" value=""
+                                        required fdprocessedid="v7p0u3">
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last name" value=""
+                                        required="" fdprocessedid="0a7wj">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Username</label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text">@</span>
+                                        <input type="text" class="form-control" id="username" placeholder="Username"
+                                            required="" fdprocessedid="nn86xg">
+                                        <div class="invalid-feedback">
+                                            Your username is required.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="email" class="form-label">Email <span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="email" class="form-control" id="emailAddress" placeholder="you@example.com"
+                                        fdprocessedid="1iyc8k">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address for shipping updates.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="address" placeholder="1234 Main St"
+                                        required fdprocessedid="ytlhf">
+                                    <div class="invalid-feedback">
+                                        Please enter your shipping address.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address2" class="form-label">Address 2 <span
+                                            class="text-muted">(Optional)</span></label>
+                                    <input type="text" class="form-control" id="address2"
+                                        placeholder="Apartment or suite" fdprocessedid="lcczyg">
+                                </div>
+
+                                <div class="col-md-5">
+                                    <label for="country" class="form-label">Country</label>
+                                    <select class="form-select" id="country" required="" fdprocessedid="w6l8hb">
+                                        <option value="">Choose...</option>
+                                        <option class="uppercase">INDIA</option>
+                                        <option class="uppercase">Afghanistan</option>
+                                        <option class="uppercase">Albania</option>
+                                        <option class="uppercase">Algeria</option>
+                                        <option class="uppercase">Australia</option>
+                                        <option class="uppercase">Argentina</option>
+                                        <option class="uppercase">Austria</option>
+                                        <option class="uppercase">Bahrain</option>
+                                        <option class="uppercase">Belarus</option>
+                                        <option class="uppercase">Bangladesh</option>
+                                        <option class="uppercase">Canada</option>
+                                        <option class="uppercase">China</option>
+                                        <option class="uppercase">Denmark</option>
+                                        <option class="uppercase">Egypt</option>
+                                        <option class="uppercase">Finland</option>
+                                        <option class="uppercase">France</option>
+                                        <option class="uppercase">Greece</option>
+                                        <option class="uppercase">Germany</option>
+                                        <option class="uppercase">Japan</option>
+                                        <option class="uppercase">usa</option>
+                                        <option class="uppercase">United Kingdom</option>
+                                    </select>
+
+                                    <div class="invalid-feedback">
+                                        Please select a valid country.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="state" class="form-label">State</label>
+                                    <select class="form-select" id="state" required="" fdprocessedid="z0vut">
+                                        <option value="">Choose...</option>
+                                        <option class="uppercase">uttar-pradesh</option>
+                                        <option class="uppercase">delhi</option>
+                                        <option class="uppercase">tamil-nadu</option>
+                                        <option class="uppercase">west-bengal</option>
+                                        <option class="uppercase">madhya-pradesh</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="zip" class="form-label">ZIP ID</label>
+                                    <input type="number" class="form-control " id="zip" placeholder="Enter the ZIP Number" maxlength="6 "fdprocessedid="4qdzvs" pattern="[0-9]{6}" required />
+                                    <div class="invalid-feedback">
+                                        Zip code required.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="same-address">
+                                <label class="form-check-label" for="same-address">Shipping address is the same as my
+                                    billing address</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="save-info">
+                                <label class="form-check-label" for="save-info">Save this information for next
+                                    time</label>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <h4 class="mb-3">Payment</h4>
+
+                            <div class="my-3">
+                                <div class="form-check">
+                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input"
+                                        checked="" required="">
+                                    <label class="form-check-label" for="credit">Credit card</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                        required="">
+                                    <label class="form-check-label" for="debit">Debit card</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="Net-Banking" name="paymentMethod" type="radio" class="form-check-input"
+                                        required="">
+                                    <label class="form-check-label" for="Net-Banking">Net-Banking</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="UPI" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                                    <label class="form-check-label" for="UPI">UPI</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="Wallet" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                                    <label class="form-check-label" for="Wallet">Wallet</label>
+                                </div>
+                            </div>
+
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <label for="cc-name" class="form-label">Name on card</label>
+                                    <input type="text" class="form-control" id="cc-name" placeholder="Enter the name on Card" required=""
+                                        fdprocessedid="f3wjno">
+                                    <small class="text-muted">Full name as displayed on card</small>
+                                    <div class="invalid-feedback">
+                                        Name on card is required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="cc-number" class="form-label">Credit / Debit card number</label>
+                                    <input type="text" class="form-control" id="cc-number" placeholder="XXXX-XXXX-XXXX-3298" required="" fdprocessedid="i5rdj" maxlength="16" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" list="cc-number" />
+                                        <datalist id="cc-number">
+                                            <option value="111-1111-1111"></option>
+                                            <option value="122-2222-2222"></option>
+                                            <option value="333-3333-3333"></option>
+                                            <option value="344-4444-4444"></option>
+                                        </datalist>
+                                    <div class="invalid-feedback">
+                                        Credit / Debit card number is required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-expiration" class="form-label">Expiration</label>
+                                    <input type="text" class="form-control" id="cc-expiration" placeholder="XX-25" maxlength="4" required="" fdprocessedid="fir6fb">
+                                    <div class="invalid-feedback">
+                                        Expiration date required
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-cvv" class="form-label">CVV</label>
+                                    <input type="text" class="form-control" id="cc-cvv" placeholder="XXXX" required="" fdprocessedid="i8ylit" maxlength="4">
+                                    <div class="invalid-feedback">
+                                        Security code required
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <button class="w-100 btn btn-primary btn-lg" type="submit" fdprocessedid="imefb">Continue to
+                                checkout</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="my-5 pt-5 text-muted text-center text-small">
+                <p class="mb-1">© 2022–2023 </p>
+                <p><b>tindog</b></p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                </ul>
+            </footer>
+        </div>
+
+
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="checkout.js"></script>
+    </body>
+
+</html>
